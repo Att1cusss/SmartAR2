@@ -1,0 +1,6 @@
+
+    function add_$return_type$($l_type$ a, $r_type$ b) internal pure returns ($return_type$) {
+        $return_type$ c = a + b;
+        assert(c >= a);
+        return c;
+    }

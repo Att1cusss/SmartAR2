@@ -1,0 +1,17 @@
+{
+  "language": "Solidity",
+  "sources":
+  {
+    
+    "destructible":
+    {
+      "content": ""
+    }
+  },
+  "settings":
+  {
+    "outputSelection": { "*": { "*": [ "*" ], "": [ "*" ] } }
+    
+    
+  }
+}

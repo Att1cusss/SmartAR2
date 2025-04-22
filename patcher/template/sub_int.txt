@@ -1,0 +1,11 @@
+
+    function sub_$return_type$($l_type$ a, $r_type$ b) internal pure returns ($return_type$) {
+        $return_type$ c = a - b;
+        if (a > 0 && b < 0) {
+            assert (c > a);
+        }
+        else if(a < 0 && b > 0) {
+            assert (c < a);
+        }
+        return c;
+    }
